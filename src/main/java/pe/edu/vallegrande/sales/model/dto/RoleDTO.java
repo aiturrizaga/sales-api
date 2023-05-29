@@ -1,6 +1,6 @@
 package pe.edu.vallegrande.sales.model.dto;
 
-import jakarta.validation.constraints.Size;
+import javax.validation.constraints.Size;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
