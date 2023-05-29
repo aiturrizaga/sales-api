@@ -1,0 +1,15 @@
+server:
+  port: ${PORT:8090}
+  servlet:
+    context-path: /${spring.application.name}
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/sales_db
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  application:
+    name: sales-api
+  config:
+    name: core-sales
